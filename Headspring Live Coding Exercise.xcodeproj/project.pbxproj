@@ -14,13 +14,21 @@
 		50AE2B0A18B270D400F24E33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B0918B270D400F24E33 /* main.m */; };
 		50AE2B0E18B270D400F24E33 /* LCEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B0D18B270D400F24E33 /* LCEAppDelegate.m */; };
 		50AE2B1118B270D400F24E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AE2B0F18B270D400F24E33 /* Main.storyboard */; };
-		50AE2B1418B270D400F24E33 /* LCEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B1318B270D400F24E33 /* LCEViewController.m */; };
 		50AE2B1618B270D400F24E33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AE2B1518B270D400F24E33 /* Images.xcassets */; };
 		50AE2B1D18B270D400F24E33 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AE2B1C18B270D400F24E33 /* XCTest.framework */; };
 		50AE2B1E18B270D400F24E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AE2AFD18B270D400F24E33 /* Foundation.framework */; };
 		50AE2B1F18B270D400F24E33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AE2B0118B270D400F24E33 /* UIKit.framework */; };
 		50AE2B2718B270D400F24E33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50AE2B2518B270D400F24E33 /* InfoPlist.strings */; };
 		50AE2B2918B270D400F24E33 /* Headspring_Live_Coding_ExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B2818B270D400F24E33 /* Headspring_Live_Coding_ExerciseTests.m */; };
+		50AE2B3418B2738500F24E33 /* LCEBaseRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B3318B2738500F24E33 /* LCEBaseRequestHandler.m */; };
+		50AE2B3718B2796600F24E33 /* LCEUserRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B3618B2796600F24E33 /* LCEUserRequestHandler.m */; };
+		50AE2B3B18B27C0000F24E33 /* LCEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B3A18B27C0000F24E33 /* LCEUser.m */; };
+		50AE2B3E18B2806100F24E33 /* LCEUserBioRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B3D18B2806100F24E33 /* LCEUserBioRequestHandler.m */; };
+		50AE2B4118B281E900F24E33 /* LCEUserBioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B4018B281E900F24E33 /* LCEUserBioViewController.m */; };
+		50AE2B4418B29B2500F24E33 /* LCEUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B4318B29B2500F24E33 /* LCEUserCell.m */; };
+		50AE2B4718B2A3B400F24E33 /* LCEUserSkillsRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE2B4618B2A3B400F24E33 /* LCEUserSkillsRequestHandler.m */; };
+		50BA875E18B2AF690066893C /* LCEUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BA875D18B2AF690066893C /* LCEUserViewController.m */; };
+		62B21A073D714542A4BA0C97 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407A7472FF04938884E4327 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,30 @@
 		50AE2B0C18B270D400F24E33 /* LCEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCEAppDelegate.h; sourceTree = "<group>"; };
 		50AE2B0D18B270D400F24E33 /* LCEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEAppDelegate.m; sourceTree = "<group>"; };
 		50AE2B1018B270D400F24E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50AE2B1218B270D400F24E33 /* LCEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCEViewController.h; sourceTree = "<group>"; };
-		50AE2B1318B270D400F24E33 /* LCEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEViewController.m; sourceTree = "<group>"; };
 		50AE2B1518B270D400F24E33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		50AE2B1B18B270D400F24E33 /* Headspring Live Coding ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Headspring Live Coding ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AE2B1C18B270D400F24E33 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		50AE2B2418B270D400F24E33 /* Headspring Live Coding ExerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Headspring Live Coding ExerciseTests-Info.plist"; sourceTree = "<group>"; };
 		50AE2B2618B270D400F24E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50AE2B2818B270D400F24E33 /* Headspring_Live_Coding_ExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Headspring_Live_Coding_ExerciseTests.m; sourceTree = "<group>"; };
+		50AE2B3218B2738500F24E33 /* LCEBaseRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEBaseRequestHandler.h; sourceTree = "<group>"; };
+		50AE2B3318B2738500F24E33 /* LCEBaseRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEBaseRequestHandler.m; sourceTree = "<group>"; };
+		50AE2B3518B2796600F24E33 /* LCEUserRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserRequestHandler.h; sourceTree = "<group>"; };
+		50AE2B3618B2796600F24E33 /* LCEUserRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserRequestHandler.m; sourceTree = "<group>"; };
+		50AE2B3918B27C0000F24E33 /* LCEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUser.h; sourceTree = "<group>"; };
+		50AE2B3A18B27C0000F24E33 /* LCEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUser.m; sourceTree = "<group>"; };
+		50AE2B3C18B2806100F24E33 /* LCEUserBioRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserBioRequestHandler.h; sourceTree = "<group>"; };
+		50AE2B3D18B2806100F24E33 /* LCEUserBioRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserBioRequestHandler.m; sourceTree = "<group>"; };
+		50AE2B3F18B281E900F24E33 /* LCEUserBioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserBioViewController.h; sourceTree = "<group>"; };
+		50AE2B4018B281E900F24E33 /* LCEUserBioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserBioViewController.m; sourceTree = "<group>"; };
+		50AE2B4218B29B2500F24E33 /* LCEUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserCell.h; sourceTree = "<group>"; };
+		50AE2B4318B29B2500F24E33 /* LCEUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserCell.m; sourceTree = "<group>"; };
+		50AE2B4518B2A3B400F24E33 /* LCEUserSkillsRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserSkillsRequestHandler.h; sourceTree = "<group>"; };
+		50AE2B4618B2A3B400F24E33 /* LCEUserSkillsRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserSkillsRequestHandler.m; sourceTree = "<group>"; };
+		50BA875C18B2AF690066893C /* LCEUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEUserViewController.h; sourceTree = "<group>"; };
+		50BA875D18B2AF690066893C /* LCEUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEUserViewController.m; sourceTree = "<group>"; };
+		8407A7472FF04938884E4327 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AE2E5F00E942AD941DFF10 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +87,7 @@
 				50AE2B0018B270D400F24E33 /* CoreGraphics.framework in Frameworks */,
 				50AE2B0218B270D400F24E33 /* UIKit.framework in Frameworks */,
 				50AE2AFE18B270D400F24E33 /* Foundation.framework in Frameworks */,
+				62B21A073D714542A4BA0C97 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,7 @@
 				50AE2B2218B270D400F24E33 /* Headspring Live Coding ExerciseTests */,
 				50AE2AFC18B270D400F24E33 /* Frameworks */,
 				50AE2AFB18B270D400F24E33 /* Products */,
+				E8AE2E5F00E942AD941DFF10 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +131,7 @@
 				50AE2AFF18B270D400F24E33 /* CoreGraphics.framework */,
 				50AE2B0118B270D400F24E33 /* UIKit.framework */,
 				50AE2B1C18B270D400F24E33 /* XCTest.framework */,
+				8407A7472FF04938884E4327 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +142,11 @@
 				50AE2B0C18B270D400F24E33 /* LCEAppDelegate.h */,
 				50AE2B0D18B270D400F24E33 /* LCEAppDelegate.m */,
 				50AE2B0F18B270D400F24E33 /* Main.storyboard */,
-				50AE2B1218B270D400F24E33 /* LCEViewController.h */,
-				50AE2B1318B270D400F24E33 /* LCEViewController.m */,
+				50AE2B3818B2796F00F24E33 /* Requests */,
+				50BA875F18B2B7D20066893C /* Bio View */,
+				50BA876018B2B7E10066893C /* Users View */,
+				50AE2B3918B27C0000F24E33 /* LCEUser.h */,
+				50AE2B3A18B27C0000F24E33 /* LCEUser.m */,
 				50AE2B1518B270D400F24E33 /* Images.xcassets */,
 				50AE2B0418B270D400F24E33 /* Supporting Files */,
 			);
@@ -152,6 +182,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50AE2B3818B2796F00F24E33 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				50AE2B3218B2738500F24E33 /* LCEBaseRequestHandler.h */,
+				50AE2B3318B2738500F24E33 /* LCEBaseRequestHandler.m */,
+				50AE2B3518B2796600F24E33 /* LCEUserRequestHandler.h */,
+				50AE2B3618B2796600F24E33 /* LCEUserRequestHandler.m */,
+				50AE2B3C18B2806100F24E33 /* LCEUserBioRequestHandler.h */,
+				50AE2B3D18B2806100F24E33 /* LCEUserBioRequestHandler.m */,
+				50AE2B4518B2A3B400F24E33 /* LCEUserSkillsRequestHandler.h */,
+				50AE2B4618B2A3B400F24E33 /* LCEUserSkillsRequestHandler.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		50BA875F18B2B7D20066893C /* Bio View */ = {
+			isa = PBXGroup;
+			children = (
+				50AE2B3F18B281E900F24E33 /* LCEUserBioViewController.h */,
+				50AE2B4018B281E900F24E33 /* LCEUserBioViewController.m */,
+			);
+			name = "Bio View";
+			sourceTree = "<group>";
+		};
+		50BA876018B2B7E10066893C /* Users View */ = {
+			isa = PBXGroup;
+			children = (
+				50BA875C18B2AF690066893C /* LCEUserViewController.h */,
+				50BA875D18B2AF690066893C /* LCEUserViewController.m */,
+				50AE2B4218B29B2500F24E33 /* LCEUserCell.h */,
+				50AE2B4318B29B2500F24E33 /* LCEUserCell.m */,
+			);
+			name = "Users View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50AE2B2C18B270D400F24E33 /* Build configuration list for PBXNativeTarget "Headspring Live Coding Exercise" */;
 			buildPhases = (
+				1EC0C524ED9746C5AF6B9017 /* Check Pods Manifest.lock */,
 				50AE2AF618B270D400F24E33 /* Sources */,
 				50AE2AF718B270D400F24E33 /* Frameworks */,
 				50AE2AF818B270D400F24E33 /* Resources */,
+				AD558662699A42C7B28C9E9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +312,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EC0C524ED9746C5AF6B9017 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD558662699A42C7B28C9E9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50AE2AF618B270D400F24E33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AE2B3418B2738500F24E33 /* LCEBaseRequestHandler.m in Sources */,
+				50BA875E18B2AF690066893C /* LCEUserViewController.m in Sources */,
+				50AE2B4118B281E900F24E33 /* LCEUserBioViewController.m in Sources */,
+				50AE2B4418B29B2500F24E33 /* LCEUserCell.m in Sources */,
+				50AE2B3B18B27C0000F24E33 /* LCEUser.m in Sources */,
+				50AE2B4718B2A3B400F24E33 /* LCEUserSkillsRequestHandler.m in Sources */,
+				50AE2B3E18B2806100F24E33 /* LCEUserBioRequestHandler.m in Sources */,
 				50AE2B0A18B270D400F24E33 /* main.m in Sources */,
 				50AE2B0E18B270D400F24E33 /* LCEAppDelegate.m in Sources */,
-				50AE2B1418B270D400F24E33 /* LCEViewController.m in Sources */,
+				50AE2B3718B2796600F24E33 /* LCEUserRequestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +483,7 @@
 		};
 		50AE2B2D18B270D400F24E33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AE2E5F00E942AD941DFF10 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +497,7 @@
 		};
 		50AE2B2E18B270D400F24E33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AE2E5F00E942AD941DFF10 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +570,7 @@
 				50AE2B2E18B270D400F24E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50AE2B2F18B270D400F24E33 /* Build configuration list for PBXNativeTarget "Headspring Live Coding ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +579,7 @@
 				50AE2B3118B270D400F24E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
