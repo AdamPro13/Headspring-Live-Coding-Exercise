@@ -55,7 +55,6 @@
     {
         [self.tableView reloadData];
     }
-    
 }
 
 - (void)refreshLabelsForUser
@@ -135,6 +134,29 @@
     {
         self.skillsState = SkillsHidden;
         [[self tableView] reloadData];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row != 0)
+    {
+        CATransform3D rotation;
+        rotation = CATransform3DMakeRotation( (0.5*M_PI), 0.0, 0.7, 0.4);
+        rotation.m34 = 1.0/ -600;
+        
+        cell.layer.shadowColor = [[UIColor blackColor]CGColor];
+        cell.layer.shadowOffset = CGSizeMake(10, 10);
+        cell.alpha = 0;
+        cell.layer.transform = rotation;
+        cell.layer.anchorPoint = CGPointMake(0, 0.5);
+        
+        [UIView beginAnimations:@"rotation" context:NULL];
+        [UIView setAnimationDuration:0.3];
+        cell.layer.transform = CATransform3DIdentity;
+        cell.alpha = 1;
+        cell.layer.shadowOffset = CGSizeMake(0, 0);
+        [UIView commitAnimations];
     }
 }
 
